@@ -5,12 +5,13 @@ y = Button(column)
 
 def end ():
     for i in lvl1:
-        if i == " ":
-            count = count + 1
-    if count == 0:
-        fin = Label(main, text="vous avez fini!")
-    else:
-        pass
+        for j in i:
+            if j == " ":
+                count = count + 1
+        if count == 0:
+            fin = Label(main, text="vous avez fini!")
+        else:
+            pass
 
 def check(x, y):
     if l+str(x)[y] =! l+str(x)c[y]:
