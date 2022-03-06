@@ -14,5 +14,5 @@ lein utiles : https://python.doctor/page-tkinter-interface-graphique-python-tuto
  -ensuite une longue reflexion avec le chef des projets a été réalisé sur un des problèmes du projet ce qui a mené à un report de cette fonctionnalité
  -puis le travail à été réparti entre les deux acteurs du projets:
     - Alexandre s'occupe de la grille ainsi que le début du Read.me
-    - François réalise les fonctions correspondantes aux actions dazns le sudoku ainsi que la partie technique pour le read.me concernant les précisions
+    - François réalise les fonctions correspondantes aux actions dans le sudoku ainsi que la partie technique pour le read.me concernant les précisions
  
