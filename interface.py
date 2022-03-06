@@ -8,14 +8,10 @@ fenetre = Tk()
 menubar = Menu(fenetre)
 
 
-liste = 5
-
 menu1 = Menu(menubar, tearoff=1)
 menu1.add_command(label="lvl1", command=generateur())
 menubar.add_cascade(label="niveaux", menu=menu1)
 
-s = Spinbox(fenetre, from_=1, to=9)
-s.pack(side=RIGHT)
 
 def callback():
     if askyesno('Titre 1', 'Êtes-vous sûr de vouloir faire ça?'):
