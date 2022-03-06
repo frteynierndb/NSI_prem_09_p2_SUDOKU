@@ -30,6 +30,6 @@ def changer_valeur(event):
 
 
 
-entree.pack()
+erreur.pack()
 
 fin.pack
