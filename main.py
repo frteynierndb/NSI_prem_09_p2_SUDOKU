@@ -9,13 +9,13 @@ def end ():
             if j == " ":
                 count = count + 1
         if count == 0:
-            fin = Label(main, text="vous avez fini!")
+            fin = Label(fenetre, text="vous avez fini!")
         else:
             pass
 
 def check(x, y):
     if l+str(x)[y] =! l+str(x)c[y]:
-        erreur = label(main, text = "il y a une erreur dans la valeur que vous avez donné")
+        erreur = label(fenetre, text = "il y a une erreur dans la valeur que vous avez donné")
 
 
 
