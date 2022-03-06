@@ -1,4 +1,4 @@
-# Créé par francois, le 06/03/2022 en Python 3.7
+
 from tkinter import *
 from tkinter import ttk
 
