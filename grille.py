@@ -14,23 +14,23 @@ l9 = [" ", 6, " ", " ", 7, " ", " ", " ", " "]
 
 def generateur(lvl1):
     for i in l1:
-        Button(fenetre, text= i, borderwidth=5).grid(row=1, column=l1[i]+1)
+        Button(fenetre, text= l1[i], borderwidth=5).grid(row=1, column=i)
     for i in l2:
-        Button(fenetre, text= i, borderwidth=5).grid(row=2, column=l2[i]+1)
+        Button(fenetre, text= l2[i], borderwidth=5).grid(row=2, column=i)
     for i in l3:
-        Button(fenetre, text= i, borderwidth=5).grid(row=3, column=l3[i]+1)
+        Button(fenetre, text= l3[i], borderwidth=5).grid(row=3, column=i)
     for i in l4:
-        Button(fenetre, text= i, borderwidth=5).grid(row=4, column=l4[i]+1)
+        Button(fenetre, text= l4[i], borderwidth=5).grid(row=4, column=i)
     for i in l5:
-        Button(fenetre, text= i, borderwidth=5).grid(row=5, column=l5[i]+1)
+        Button(fenetre, text= l5[i], borderwidth=5).grid(row=5, column=i)
     for i in l6:
-        Button(fenetre, text= i, borderwidth=5).grid(row=6, column=l6[i]+1)
+        Button(fenetre, text= l6[i], borderwidth=5).grid(row=6, column=i)
     for i in l7:
-        Button(fenetre, text= i, borderwidth=5).grid(row=7, column=l7[i]+1)
+        Button(fenetre, text= l7[i], borderwidth=5).grid(row=7, column=i)
     for i in l8:
-        Button(fenetre, text= i, borderwidth=5).grid(row=8, column=l8[i]+1)
+        Button(fenetre, text= l8[i], borderwidth=5).grid(row=8, column=i)
     for i in l9:
-        Button(fenetre, text= i, borderwidth=5).grid(row=9, column=l9[i]+1)
+        Button(fenetre, text= l9[i], borderwidth=5).grid(row=9, column=i)
 
 lvl1c = [l1c, l2c, l3c, l4c, l5c, l6c, l7c, l8c, l9c]
 
