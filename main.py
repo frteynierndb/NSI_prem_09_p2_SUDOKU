@@ -20,7 +20,7 @@ def check(x, y):
 
 
 
-def changer_valeur(event):
+def change_val(event):
     touche = event.keysim
     if touche == "<Button-1>":
           val = input(val)
