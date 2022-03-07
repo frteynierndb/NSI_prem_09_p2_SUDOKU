@@ -17,20 +17,20 @@ lein utiles : https://python.doctor/page-tkinter-interface-graphique-python-tuto
     - François réalise les fonctions correspondantes aux actions dans le sudoku ainsi que la partie technique pour le read.me concernant les précisions
     
  GRILLE: 45l
- la grille est une liste appelé lvl1 (des niveéaux différents seront rajouté au fur et à mesure), cette loste contient 9 lisqte appélé respectivement l1, l2... pour les différentes lignes de la grille, les cases soont des boutons généré grâce à une variable i qui traverse la lioste afin de donner la valeur, ainsi que la colonne, la ligne étant donné grâce au nom de la liste.
+ la grille est une liste appelé lvl1 (des niveéaux différents seront rajouté au fur et à mesure), cette lo*iste contient 9 liste appélé respectivement l1, l2... pour les différentes lignes de la grille, les cases soont des boutons généré grâce à une variable i qui traverse la lioste afin de donner la valeur grâce à la commande l1[i], ainsi que la colonne avec i, la ligne étant donné grâce au nom de la liste. les listes  sont composés d'éléments vide pour les cases non remplies.
  
 Il y a ensuite une deuxième liste lvl1c qui correspond à la correction de la grille, elle sert de référence pour la fonction check qui sera expliquée plus tard.
 
 MAIN: 34l
-
+au début du programme nous avons attribué au ligne (row) des boutons une varaible x et une variable y pour les colones des boutons 
 le main est constitué de 3 fonctions:
--check--> elle sert à comparer les valeurs sur une même position des listes lvl1 et lvl1c , si il y a une différence, un message apparait indiquant l'erreur
--end--> c'est la fonction qui quand le sudoku sera terminé vous enverra un message de fin
--changer-valeur--> c'est la fonction qui correspondf à l'évènement d'un clique gauche qui permet de changer la valeur d'une case
+-check--> elle sert à comparer les valeurs sur une même position des listes lvl1 et lvl1c , si il y a une différence, un message apparait indiquant l'erreur.elle prend en compte lvl1 et lvl1c ainsi que x et y
+-end_game--> c'est la fonction qui quand le sudoku sera terminé, cet-à-dire qu'il n'y a plus d'éléments vide dans les sous liste de la liste de la grille, vous enverra un message de fin, vous pourrez donc ensuite quitter le jeu. elle prend en compte la liste lvl1
+-change-val--> c'est la fonction qui correspond à l'évènement d'un clique gauche qui permet de changer la valeur d'une case, elle applique ainsi les fonction check puis end_game
  
 INTERFACE: 26l
 
-cette partie du programme est très majoritairement tiré du site dont le lien est affiché en haut de ce read me, elle constitue l'interface graphique du sudoku où les fonctions ont été insipré et modifié : l8, l13-15, l18-23, l25, l27, l18elle est constitué de lignes permettant un menu en haut à gauche et d'un bouton quitter
+cette partie du programme est très majoritairement tiré du site dont le lien est affiché en haut de ce read me, elle constitue l'interface graphique du sudoku où les fonctions ont été insipré et modifié : l11_13 pour le menu des niveaux; l16 : (def callback) pour quitter le jeu: elle permet de faire un choix entre vraiment quitter ou finalement rester. l23 permet d 'executer callback
 
 vous n'aurez besoin que de tkinter pour faire fonctionner le programme
 
