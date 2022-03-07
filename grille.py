@@ -12,7 +12,7 @@ l7 = [" ", " ", 4, " ", " ", " ", 2, 7, " "]
 l8 = [" ", " ", " ", 1, " ", 2, " ", 5, 4]
 l9 = [" ", 6, " ", " ", 7, " ", " ", " ", " "]
 
-def generateur(lvl1):
+def generate_grid(lvl1):
     for i in l1:
         Button(fenetre, text= l1[i], borderwidth=5).grid(row=1, column=i)
     for i in l2:
